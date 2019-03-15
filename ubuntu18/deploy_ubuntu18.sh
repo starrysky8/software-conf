@@ -9,8 +9,8 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
 echo " >>> 设置清华源 "
 sudo mv ${PWD}/sources.list /etc/apt/
 
-echo " >>> 安装软件: vim, git, net-tools, terminator"
-sudo apt-get install -y vim git net-tools terminator
+echo " >>> 安装软件: vim, git, svn, net-tools, terminator"
+sudo apt-get install -y vim git subversion net-tools terminator
 
 echo " >>> 配置终端分屏工具"
 mkdir -p ~/.config/terminator/
